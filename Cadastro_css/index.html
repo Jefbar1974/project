@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cadastro de Produtos</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="morango.png" alt="Icone de Morango">
+        <h1>Cadastro de produtos:</h1>
+    </header>
+
+
+
+    <div>
+        <p> Informe nos campos a seguir os dados do produto a ser cadastrado:</p>
+
+        <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+            <input placeholder="Nome do Produto" type="text" name="produtonome" id="">
+            <input placeholder="Preço em R$" type="number" name="produtopreco" id="">
+            <hr>
+            <input placeholder="Quantidade" type="number" name="produtoquantidade" id="">
+
+            <select name="produtocategoria" id="">
+                <option value="">Slecione a categoria</option>
+                <option value="frutas">Frutas</option>
+                <option value="verduras">Verduras</option>
+                <option value="doces">Doces</option>
+                <option value="salgados">Salgados</option>
+
+            </select>
+            <hr>
+            <button class="botao-enviar" type="submit">CADASTRAR</button>
+        </form>
+
+
+</body>
+
+</html>

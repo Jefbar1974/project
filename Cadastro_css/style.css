@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+background-color: rgb(223, 213, 213);
+
+}
+
+header > h1 {
+display: inline;
+color: darkred;
+
+}
+
+.botao-enviar {
+
+    background-color: darkred;
+    color: white;
+}
