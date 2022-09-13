@@ -1,0 +1,55 @@
+/*--------------------------
+        RESET
+-----------------------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 22px;
+}
+
+body {
+  height: 100vh;
+}
+
+/* ------------------------
+        LAYOUT
+---------------------------*/
+.cabecalho {
+  padding: 10px;
+  background-color: rgb(67, 67, 67);
+  color: white;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+/* --------------------------
+    EXERCICIOS ENUNCIADO
+----------------------------- */
+.card-exercicio {
+    border: solid black 2px;
+    padding: 15px;
+}
+
+.card-exercicio__enunciado {
+    padding: 10px 0px;
+    max-width: 60ch;
+}
+
+.card-exercicio__lista, .card-exercicio__lista {
+    padding: 10px 0px;
+}
+.card-exercicio__lista, .card-exercicio__lista > ul {
+    margin-left: 15px;
+}
+
+/* --------------------------
+    EXERCICIOS RESOLUCAO
+----------------------------- */
+.card-exercicio__resolucao {
+    border: solid black 2px;
+    padding: 10px;
+}

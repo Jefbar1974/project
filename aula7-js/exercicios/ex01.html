@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Exercícios JS</h1>
+    </header>
+    <main>
+        <article class="card-exercicio">
+            <header class="card-exercicio__cabecalho">
+                <h2>Exercício 01</h2>
+            </header>
+            <div class="card-exercicio__enunciado">
+                <p>Crie o HTML, CSS e JS:</p>
+                <ul class="card-exercicio__lista">
+                    <li>Um botão HTML</li>
+                    <li>Uma div HTML para mostrar o resultado</li>
+                    <li>Uma função JS chamada imprimePares que ao clicar no botão</li>
+                    <ul>
+                        <li>Imprime todos números pares de 1 a 100 em uma div de resultado</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="card-exercicio__resolucao">
+                <button onclick="mostrarPares()">Resolver</button>
+                <div id="exercicio-01__resultado">
+
+                </div>
+                <script>
+                    function mostrarPares() {
+                        const divResultado = document.querySelector("#exercicio-01__resultado")
+                        for (let index = 2; index <= 100; index = index + 2) {
+                            if (index != 2)
+                                divResultado.innerHTML += ","
+                            divResultado.innerHTML += index
+                        }
+                    }
+                </script>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
