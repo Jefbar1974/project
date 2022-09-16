@@ -51,3 +51,18 @@ h1 {
     margin-left: 50px;
 
 }
+
+#resultado {
+    
+    border: solid black 2px;
+    width: 200px;
+    height: 35px;
+}
+
+input {
+
+    border: solid black 2px;
+    width: 200px;
+    height: 35px;
+
+}
