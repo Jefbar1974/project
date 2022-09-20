@@ -7,11 +7,13 @@
 }
 
 h1 {
-
-    margin-left: 50px;
-    margin-top: 30px;
+    background-color: rgb(72, 42, 42);
+    color: rgb(223, 214, 214);
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 30px;
     margin-bottom: 30px;
-   
+
 }
 
 #numero1 {
@@ -20,7 +22,7 @@ h1 {
     margin-bottom: 15px;
     margin-left: 170px;
     margin-top: -30px;
-   
+
 }
 
 #numero2 {
@@ -49,7 +51,8 @@ h1 {
     border: solid black 2px;
     width: 200px;
     height: 35px;
-    
+    padding: 10px;
+
 }
 
 
@@ -58,19 +61,19 @@ input {
     border: solid black 2px;
     width: 200px;
     height: 35px;
-
+    padding: 10px;
+    
 }
 
-p {
-    margin-left: 30px;
 
-}
 
 hr {
-
+    border: solid rgb(72, 42, 42) 2px;
     margin-bottom: 30px;
 
 }
 
+p{
 
-
+    margin-left: 10px;
+}
