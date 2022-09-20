@@ -67,6 +67,7 @@ hr {
     border: solid black 2px;
     width: 200px;
     height: 35px;
+    padding: 10px;
 
 }
 
@@ -76,6 +77,11 @@ input {
     border: solid black 2px;
     width: 200px;
     height: 35px;
+    padding: 10px;
+}
 
+p{
+
+    margin-left: 10px;
 }
 
