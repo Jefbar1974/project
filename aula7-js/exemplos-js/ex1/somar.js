@@ -1,6 +1,6 @@
 
 
-console.log("Fora da Função")
+
 
 
 function somar()  {

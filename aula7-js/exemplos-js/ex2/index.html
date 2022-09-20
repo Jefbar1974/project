@@ -8,30 +8,35 @@
     <link rel="stylesheet" href="style.css">
     <script src="somar.js"></script>
 
-    <title>Exercício 1 - javascript</title>
+    <title>Exercício 2 - javascript</title>
 </head>
 
 <body>
 
     <header>
 
-        <h1>Soma os 3 números</h1>
+        <h1>Somar os 3 números automático</h1>
 
     </header>
 
     <main>
+        <p>Primeiro numero:</p>
+        <input type="number" name="numero1" onblur="somar()" id="numero1">
 
-        <input type="number" name="numero1" id="numero1">
-        <input type="number" name="numero2" id="numero2">
-        <input type="number" name="numero3" id="numero3">
+        <p>Segundo numero:</p> 
+        <input type="number" name="numero2" onblur="somar()" id="numero2">
+
+        <p>Terceiro numero:</p> 
+        <input type="number" name="numero3" onblur="somar()" id="numero3">
+
 
         <hr>
 
-        <button onclick="somar()" class="botao" type="submit">Somar</button>
         
-        <div class="resultado" id="resultado"></div>
 
-        <input type="number" name="resultado" id="resultado">
+       
+        <div class="resultado" id="resultado"></div>
+        <p>Resultado:</p> 
 
     </main>
 

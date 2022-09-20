@@ -11,6 +11,8 @@ h1 {
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+   
+    
 
 }
 
@@ -18,28 +20,35 @@ h1 {
 
     display: block;
     margin-bottom: 15px;
-    margin-left: 50px;
+    margin-left: 170px;
+    margin-top: -30px;
+    
 }
 
 #numero2 {
 
     display: block;
     margin-bottom: 15px;
-    margin-left: 50px;
+    margin-left: 170px;
+    margin-top: -30px;
 }
 
 #numero3 {
 
     display: block;
     margin-bottom: 15px;
-    margin-left: 50px;
+    margin-left: 170px;
+    margin-top: -30px;
 }
 
 .botao {
 
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 170px;
     margin-bottom: 30px;
+    font-size: 20px;
+    padding: 5px;
+    border: solid black 2px;
 
 
 }
@@ -47,17 +56,14 @@ h1 {
 #resultado {
 
     display: block;
-    margin-bottom: 15px;
-    margin-left: 50px;
-
-}
-
-#resultado {
-    
+    margin-bottom: -25px;
+    margin-left: 170px;
     border: solid black 2px;
     width: 200px;
     height: 35px;
+    
 }
+
 
 input {
 
@@ -66,3 +72,11 @@ input {
     height: 35px;
 
 }
+
+p {
+    margin-left: 30px;
+
+}
+
+
+
