@@ -6,13 +6,14 @@
     line-height: 22px;
 }
 
-h1 {
 
-    margin-left: 50px;
-    margin-top: 30px;
+h1 {
+    border: solid black 1px;
+    background-color: rgb(184, 175, 175);
     margin-bottom: 30px;
-   
-    
+    padding: 40px;
+    padding-bottom: 20px;
+    text-align: center;
 
 }
 
@@ -22,7 +23,7 @@ h1 {
     margin-bottom: 15px;
     margin-left: 170px;
     margin-top: -30px;
-    
+
 }
 
 #numero2 {
@@ -39,6 +40,11 @@ h1 {
     margin-bottom: 15px;
     margin-left: 170px;
     margin-top: -30px;
+}
+
+hr {
+
+    border: solid black 2px
 }
 
 .botao {
@@ -61,7 +67,7 @@ h1 {
     border: solid black 2px;
     width: 200px;
     height: 35px;
-    
+
 }
 
 
@@ -72,11 +78,4 @@ input {
     height: 35px;
 
 }
-
-p {
-    margin-left: 30px;
-
-}
-
-
 
