@@ -1,0 +1,70 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+
+    background-color: rgb(85, 83, 83);
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.buscar {
+
+    background-color: grey;
+    margin-left: 595px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    border: solid black 2px;
+}
+
+input {
+
+    width: 150px;
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+
+    font-size: 18px;
+    padding: 5px;
+}
+
+#nome {
+
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#imagem {
+
+    margin-top: 20px;
+    background-color: grey;
+    position: relative;
+}
+
+.img {
+
+    padding: 10px 10px 20px 10px;
+    background-color: grey;
+    margin-left: 570px;
+    position: relative;
+    width: 305px;
+    height: 370px;
+    border-radius: 15px;
+    border: solid black 2px;
+}
