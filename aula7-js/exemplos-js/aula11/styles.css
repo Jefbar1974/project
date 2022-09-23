@@ -17,7 +17,8 @@ h1 {
 .buscar {
 
     background-color: grey;
-    margin-left: 595px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 15px;
     width: 250px;
     height: 100px;
@@ -61,7 +62,8 @@ button {
 
     padding: 10px 10px 20px 10px;
     background-color: grey;
-    margin-left: 570px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     width: 305px;
     height: 370px;
